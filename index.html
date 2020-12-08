@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Inicio</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- Barra de navegacion -->
+    <div class="nav-bar site-header sticky-top ">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e8e8e8; font-family: cursive;">
+        <a class="navbar-brand hvr-bob" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link hvr-bob" href="diagramas.html">Diagramas/Documentación <span
+                  class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link hvr-bob" href="nosotros.html">Desarrolladores <span
+                  class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link hvr-bob" href="manuales.html">Manuales<span
+                  class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link hvr-bob" href="dvleasy.html">A cerca de Dvleasy <span
+                  class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+        <a href="index.html" class="hvr-bob">
+          <img src="img/logodvl.jpeg" width="30" height="30" fill="none" stroke="currentColor" stroke-linecap="round"
+            stroke-linejoin="round" stroke-width="2" class="d-block mx-auto " role="img" viewBox="0 0 24 24"
+            focusable="false" style="border-radius: 20px;">
+        </a>
+      </nav>
+    </div>
+    <!-- Banner -->
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">Bienvenido</h1>
+        <p class="lead font-weight-normal">Echa un vistazo a toda la documentación referente al proyecto SOPIEC.
+        </p>
+        <a class="btn btn-outline-secondary scroll" href="#cajas">¡Desliza!</a>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+
+    <div id="cajas" class="cajas row mb-5 mt-4">
+      <!-- Collapse -->
+      <div class="col-12 col-md-8" id="accordion" style="
+      width: 71%;
+      ">
+        <!-- Card justificacion -->
+        <div class="card">
+          <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link no-decoration" data-toggle="collapse" data-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Justificacion.
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+
+              <hr>
+              <h2>Antecedentes.</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <p>Nativapps es una empresa cuyos procesos están centralizados en el desarrollo de software, el marketing
+                digital y a la creación de contenido para los clientes, básicamente el núcleo de la empresa es generar
+                software a la medida para sus clientes, la cual la mayoría son de estados unidos. y el constante
+                crecimiento de la marca como tal(empresa), se aspira a generar 1500 empleos en 5 años.</p>
+
+              <h2>Objetivos de la contratación</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <p>El contrato que sobre la base del presente pliego se realice tendrá por objetivo es la contratación del
+                servicio de energía,servicio de acceso a Internet,actualizaciones de licencias de cada equipo y la
+                utilización de una nueva base de datos apartada solamente para el software.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Card ALCANCE DE LOS SERVICIIOS.-->
+        <div class="card">
+          <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed no-decoration" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                Alcance de los servicios
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <h2>Metodología o forma en que se prestara el servicio</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <p>El servicio de desarrollo de software que prestará DLVease a la empresa Nativapps consistirá en mostrar
+                avances cada 3 meses, añadiendo nuevas funcionalidades y pidiendo retroalimentación del usuario.
+                Asimismo es la modalidad de trabajo con otros clientes
+              </p>
+              <h2>Actividades a realizar </h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <ul>
+                <li>Visitar la empresa y hablar con los miembros que estarán en contacto con el producto final</li>
+                <li>Basados en la entrevista hacemos el analisis y diseño del software</li>
+                <li>Se trabaja en el software mediante sprints de una semana</li>
+                <li>Se muestra el avance del proyecto trimestralmente o periodicamente según sea el caso.</li>
+                <li>Se entrega el producto finalizado con sus respectivos manuales y documentación</li>
+              </ul>
+              <h2>Productos</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <p>El producto que se entregará al cliente ha sido previamente testeado para un correcto funcionamiento
+                del mismo.
+                SOPIEC Que es un sistema de inventariado de equipos de computo debe cumplir ciertos requisitos para que
+                sea totalmente funcional, esos requisitos son previamente verificados en funcionamiento por nuestro
+                equipo desarrollador.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- PERFIL DE LA EMPRESA O CONSULTOR. -->
+        <div class="card">
+          <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed no-decoration" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                Perfil de la empresa o consultor
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <h2>Perfil de la empresa o consultor</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <p>NativApps es una organización donde se elaboran y desarrollan productos digitales.
+
+                Con más de 15 años de experiencia, 100 miembros en su grupo de talentos y más de 100 proyectos exitosos
+                de diferentes verticales en la cual se labora mediante 3 soluciones diferentes:
+
+                - You Manage: se crean equipos de soporte y de extremo a extremo, asignando los roles y la dedicación
+                correctos a su producto.
+                - We Manage: Se recluta y asigna cuidadosamente recursos de TI de acuerdo con los roles que necesita el
+                equipo.
+                - Co-Manage: Se trabaja juntamente con el cliente para conseguir el producto deseado</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Condiciones contraactuales.-->
+        <div class="card">
+          <div class="card-header" id="headingFour" data-toggle="collapse" data-target="#collapseFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed no-decoration" data-toggle="collapse" data-target="#collapseFour"
+                aria-expanded="false" aria-controls="collapseFour">
+                Condiciones contraactuales
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+              <h2>Oferta economica</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <p>El Valor económico del proyecto no se ha determinado en cifras, pero el costo está determinado de la
+                siguiente manera:
+              <ul>
+                <li>• El 50% de los costos totales irán dirigidos al pago de los desarrolladores.</li>
+                <li>• El 25% de los costos totales irán dirigidos al costo de licencias, requerimientos.</li>
+                <li>• El 15% de los costos totales irán dirigidos a pagos del dominio y hosting. </li>
+                <li>• El 10% de los costos totales irán dirigidos a desvíos monetarios como prevención de presupuesto.
+                </li>
+              </ul>
+              </p>
+              <h2>Forma de pago</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <p>El pago ha sido acordado de manera Aplazado, en un momento posterior a la entrega de los bienes o la
+                prestación de los servicios.
+                Debido a que es un software lo que desarrollamos, la empresa DVLeasy acordó con la empresa NativApps que
+                el pago sea efectuado 15 días después de recibir el producto final.
+                El método de pago será a través de transferencia bancaria, dirigido a la cuenta del representante de
+                DVLeasy: Livan Torres.
+              </p>
+              <h2>Plazo</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <p>El plazo que ha pactado la empresa DVLeasy con la empresa NativApps da comienzo desde el momento de la
+                entrevista por tanto la fecha estipulada como inicio es el día 11 de marzo del presente año 2020 y el
+                plazo final de entrega es de 20 días antes de terminar el proceso lectivo con el SENA.</p>
+              <h2>Supervisión</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <p>La supervisión será llevada por el técnico en sistemas de la empresa NativApps: Livan Torres, quien
+                revisará el proyecto trimestralmente.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- DOCUMENTO DE ESPECIFICACIÓN DE REQUISITOS.-->
+        <div class="card">
+          <div class="card-header" id="headingFive" data-toggle="collapse" data-target="#collapseFive">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed no-decoration" data-toggle="collapse" data-target="#collapseFive"
+                aria-expanded="false" aria-controls="collapseFive">
+                Documento de especificacion de requisitos
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+            <div class="card-body">
+
+              <h2>Proyecto SOPIEC (Software para el inventariado de equipos de computo)</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <h3>Propósito general</h3>
+              <hr style="border-color:#7ea0d6a6;">
+              <p> El deber ser del software, y su función principal es almacenar de forma practica y ordenada la
+                información
+                de los equipos de computo presentes en la empresa NativApps</p>
+
+              <h3>Alcance</h3>
+              <hr style="border-color:#7ea0d6a6;">
+              <p>SOPIEC será un software en el que se podrá consultar el estado de los equipos presentes en la empresa,
+                sus
+                características, sus licencias y programas, este software será util dentro y fuera de la empresa para el
+                area de sistemas y el área administrativa.</p>
+              <hr style="border-color:#7ea0d6a6;">
+              <h2>REQUISITOS ESPECÍFICOS</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <h3>Requisitos funcionales</h3>
+              <ul>
+                <li>
+                  Se deben almacenar la información de múltiples equipos de computo.
+                </li>
+                <li>El software debe poder ser utilizado de manera remota.
+                </li>
+                <li>Inserción rápida de nuevos equipos de computo.
+                </li>
+                <li>Acceso al software con privilegios estándar y privilegios de administrador
+                </li>
+                <li>El software debe almacenar equipos periféricos
+                </li>
+                <li>Actualización rápida de equipos ya registrados
+                </li>
+                <li>Búsqueda de equipos por su nombre y/o serial.
+                </li>
+              </ul>
+              <h2>Requisitos no funcionales</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <ul>
+                <li>Diseño intuitivo.
+                </li>
+                <li>El software debe poder ser utilizado de manera remota
+                </li>
+                <li>Adaptable a distintos dispositivos
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <!-- INFORME SOBRE LAS NECESIDADES INFORMÁTICAS.-->
+        <div class="card">
+          <div class="card-header" id="headingSix" data-toggle="collapse" data-target="#collapseSix">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed no-decoration" data-toggle="collapse" data-target="#collapseSix"
+                aria-expanded="false" aria-controls="collapseSix">
+                Necesidades informaticas
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+            <div class="card-body">
+
+              <h2>Metodología</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <p>La metodología aplicada en la recolección de datos fue la realización de entrevistas. <br> <br>
+
+                Se les hizo a los lidere y/o representantes de los diferentes departamentos, 5 en total, entre los
+                cuales
+                se encuentran el departamento de: contabilidad, administración, recursos humanos, desarrollo y por
+                ultimo
+                pero la mas importante el departamento de sistemas.</p>
+              <hr style="border-color:#7ea0d6a6;">
+
+              <h3>Resultado de entrevistas</h3>
+              <hr style="border-color:#7ea0d6a6;">
+              Requerimientos más notables en entrevistas presenciales: <br>
+              <ul>
+                <li>Se deben almacenar la información de múltiples equipos de computo.
+                </li>
+                <li>Debe poder ser utilizado de manera remota.
+                </li>
+                <li>Deber ser de rápida inserción de nuevos equipos de computo.
+                </li>
+                <li>Debe permitir dos clases de acceso al software los cuales son estándar y administrador
+                </li>
+                <li>Debe ser capaz de almacenar equipos periféricos
+                </li>
+                <li>Debe poseer actualización rápida de equipos ya registrados
+                </li>
+                <li>Debe realizar búsqueda de equipos por su nombre y/o serial.
+                </li>
+              </ul>
+
+              <p class="font-weight-bold">Ademas de estos datos cabe destacar que el 80% de los departamentos
+                entrevistados harán uso del software de forma directa o indirectamente los cuales son:</p>
+              <hr style="border-color:#7ea0d6a6;">
+              <ul>
+                <li>Administración</li>
+                <li>Contabilidad</li>
+                <li>Recursos humanos
+                </li>
+                <li>Sistemas</li>
+              </ul>
+              <h2>Análisis de la problemática principal</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <p>
+                Según varios entrevistados, nos presentaron que su principal problemática era la administración y/u
+                organización de los equipos de cómputos y sus periféricos siendo incapaz de saber donde están dichos
+                equipos, el representante del departamento de sistemas nos indicó que anteriormente usaba métodos de
+                inventariado con la herramienta excel sin embargo se hacia un lió de la información ademas que en caso
+                se
+                cambiase de lugar era complejo a la hora de editar el documento, al pasar meses ya era prácticamente una
+                tortura mental el buscar un equipo en especifico de tantos archivos excel
+              </p>
+
+              <h2>Análisis de posibles soluciones</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <ol>
+                <li>Decidimos en primera instancia optar por la creación de un software de escritorio, conectados a un
+                  computador central (servidor), sin embargo está idea no se llevó a cabo por la desventaja local, y
+                  utilización de recursos que podrian ser aprovechados mejor en otros programas con los que ellos
+                  trabajan.</li>
+                <li>Ante la cantidad de desventajas y problemas que detectamos en la primera opción decidimos la
+                  creación de un sitio web, la ventaja de esta opción es su fácil acceso debido a que sólo requiere
+                  loguearse, ver los equipos necesitados con toda la información buscada y listo, ventajas de esta idea
+                  es el acceso remoto, ya sea desde el escritorio o desde un dispositivo móvil (en un futuro), otra de
+                  las ventajas será la no instalación en el escritorio lo cual no consumirá demacrados recursos del
+                  equipo de computo.</li>
+              </ol>
+
+              <h2>Análisis del Rol del software en la empresa</h2>
+              <hr style="border-color:#7ea0d6a6;">
+              <ul>
+                <li>Esperamos que al representante del departamento de sistemas se le haga mas sencillo y rápido la
+                  administración y visibilidad de los equipos de computo y periféricos correspondientes.</li>
+                <li>Así también para los otros departamentos buscar o ver las características y ubicación de un equipo
+                  en especifico o varios sin llegar a tener la capacidad de modificar la información ingresada.
+                </li>
+                <li>Queremos ademas en un futuro ampliar el software para el departamento de los recursos humanos y así
+                  ellos poder organizar sus diferentes objetos no informáticos
+                </li>
+              </ul>
+
+              <h2>Conslusión</h2>
+              <p> En general buscamos suplir la mayoría de problemas de administración de inventariado en la empresa
+                NativApps principalmente en los equipos de computo y periféricos sin embargo esperamos poder ampliar
+                nuestro software al departamento de recursos humanos donde podrán ver los diferentes elementos no
+                informáticos pero que también requieren un inventariado.</p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- UML Card -->
+      <div class="card col-12 col-md-4" style="width: 29%;">
+        <img class="card-img-top" src="img/uml.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Diagramas UML</h5>
+          <p class="card-text">En este apartado se encuentran los diagramas y casos de usos del proyecto.</p>
+          <a href="diagramas.html" class="btn btn-primary">Ver diagramas</a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer  -->
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <a href="index.html" class="hvr-bob">
+            <img src="img/logodvl.jpeg" width="30" height="30" fill="none" stroke="currentColor" stroke-linecap="round"
+              stroke-linejoin="round" stroke-width="2" class="d-block mx-auto " role="img" viewBox="0 0 24 24"
+              focusable="false" style="border-radius: 20px;">
+          </a>
+          <small class="d-block mb-3 text-muted">&copy; 2019-2021</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>DVLeasy</a></h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="www.devleasy.com" target="_blank">Nuestro sitio web</a></li>
+            <li><a class="text-muted" href="#">Equipo de desarrollo</a></li>
+            <li><a class="text-muted" href="https://github.com/hguzman/NativApps" target="_blank">Proyecto en GitHub</a>
+            </li>
+            <li><a class="text-muted" href="#">A cerca de nosotros</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md">
+          <h5>Contactenos</h5>
+          <ul class="list-unstyled text-small">
+            <li class="text-muted">
+              <h6>Tel: 3651234</h6>
+            </li>
+            <li class="text-muted">
+              <h6>Cel: 3002881234</h6>
+            </li>
+            <li class="text-muted">
+              <h6>Direccion: Calle 94 #51b-73. <br> Centro empresarial buro51 - oficina 607</h6>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md">
+          <h5>Redes Sociales</h5>
+          <ul class="list-unstyled text-small">
+            <li><a href="https://www.facebook.com/DVLeasy-119472056341523" target="_blank">
+                <i class="fab fa-facebook-square texto-iconos"></i> Facebook
+              </a></li>
+            <li><a href="https://twitter.com/DvLeasy">
+                <i class="fab fa-twitter-square texto-iconos" target="_blank"></i> Twitter
+              </a></li>
+            <li><a href="https://co.pinterest.com/developmenteasy/" target="_blank">
+                <i class="fab fa-pinterest-square texto-iconos"></i> Pinterest
+              </a></li>
+            <li><a href="https://www.instagram.com/dvleasy/" target="_blank">
+                <i class="fab fa-instagram-square texto-iconos"></i> Instagram
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- CDN de Fontawesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"
+      integrity="sha512-M+hXwltZ3+0nFQJiVke7pqXY7VdtWW2jVG31zrml+eteTP7im25FdwtLhIBTWkaHRQyPrhO2uy8glLMHZzhFog=="
+      crossorigin="anonymous"></script>
+    <!--Archivos de javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+      </script>
+</body>
+
+</html>
